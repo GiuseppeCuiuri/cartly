@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Cartly</string>
+
+    <!-- tabs, titles and toolbar -->
+    <string name="tab_list">Lista</string>
+    <string name="tab_planned">Programmate</string>
+    <string name="tab_history">Storico</string>
+    <string name="title_list">La tua lista</string>
+    <string name="title_planned">Spese programmate</string>
+    <string name="title_history">Storico spese</string>
+    <string name="supermarkets_nearby">Supermercati vicini</string>
+    <string name="supermarket_query">supermercato</string>
+    <string name="no_maps_app">Nessuna app di mappe installata</string>
+
+    <!-- shopping list -->
+    <string name="add_product_hint">Aggiungi un prodotto (es. 2 latte)</string>
+    <string name="add">Aggiungi</string>
+    <string name="remove">Rimuovi</string>
+    <string name="change_quantity">Cambia quantità</string>
+    <string name="quantity_of">Quanti: %1$s?</string>
+    <string name="quantity_badge">%1$d×</string>
+    <string name="already_in_list">Già nella lista: %1$s</string>
+    <string name="removed">Rimosso: %1$s</string>
+    <string name="undo">Annulla</string>
+    <string name="in_trolley">✓  Nel carrello (%1$d)</string>
+    <string name="state_to_buy">da comprare</string>
+    <string name="state_in_trolley">nel carrello</string>
+    <string name="shopping_done">Spesa fatta (%1$d)</string>
+    <string name="shopping_saved">Spesa salvata nello storico</string>
+    <string name="show">Vedi</string>
+
+    <!-- supermarket departments, in the order of the list -->
+    <string name="dept_produce">Frutta e verdura</string>
+    <string name="dept_bakery">Pane e forno</string>
+    <string name="dept_dairy">Latticini e uova</string>
+    <string name="dept_meat_fish">Carne, pesce e salumi</string>
+    <string name="dept_pasta">Pasta, riso e cereali</string>
+    <string name="dept_pantry">Dispensa</string>
+    <string name="dept_frozen">Surgelati</string>
+    <string name="dept_drinks">Bevande</string>
+    <string name="dept_home">Casa e pulizia</string>
+    <string name="dept_personal">Cura della persona</string>
+    <string name="dept_pets">Animali</string>
+    <string name="dept_other">Altro</string>
+
+    <!-- planned shoppings -->
+    <string name="new_shopping">Nuova spesa</string>
+    <string name="no_description">Nessuna descrizione</string>
+    <string name="shopping_deleted">Spesa eliminata</string>
+    <string name="notifications_denied">Senza notifiche non riceverai i promemoria</string>
+    <string name="description_hint">Descrizione (facoltativa)</string>
+    <string name="pick_date">Giorno della spesa</string>
+    <string name="pick_time">Ora della spesa</string>
+    <string name="time_in_past">Scegli un orario nel futuro</string>
+    <string name="save">Salva</string>
+    <string name="cancel">Annulla</string>
+    <string name="today">Oggi</string>
+    <string name="tomorrow">Domani</string>
+
+    <!-- history -->
+    <plurals name="products">
+        <item quantity="one">%d prodotto</item>
+        <item quantity="other">%d prodotti</item>
+    </plurals>
+    <string name="bought_products">Prodotti comprati</string>
+    <string name="no_products">Nessun prodotto</string>
+    <string name="add_again">Rimetti in lista</string>
+    <string name="added_again">Prodotti rimessi nella lista</string>
+    <string name="close">Chiudi</string>
+
+    <!-- reminders -->
+    <string name="reminder_channel">Promemoria spesa</string>
+    <string name="reminder_title">Spesa in programma</string>
+    <string name="reminder_text">Alle %1$s, tra circa un\'ora</string>
+
+    <!-- empty lists -->
+    <string name="empty_list_title">La lista è vuota</string>
+    <string name="empty_list_text">Scrivi qui sopra cosa ti serve: lo mettiamo noi nel reparto giusto.</string>
+    <string name="empty_planned_title">Nessuna spesa in programma</string>
+    <string name="empty_planned_text">Tocca «Nuova spesa»: ti avvisiamo un\'ora prima.</string>
+    <string name="empty_history_title">Ancora nessuna spesa</string>
+    <string name="empty_history_text">Spunta i prodotti mentre li prendi, poi tocca «Spesa fatta».</string>
+
+    <!-- first launch -->
+    <string name="onboarding_skip">Salta</string>
+    <string name="onboarding_next">Avanti</string>
+    <string name="onboarding_start">Inizia</string>
+    <string name="onboarding_title_1">La spesa, in ordine</string>
+    <string name="onboarding_text_1">Scrivi cosa ti serve, anche «2 latte»: Cartly lo divide per reparto, come tra gli scaffali.</string>
+    <string name="onboarding_title_2">Spunta mentre compri</string>
+    <string name="onboarding_text_2">Tocca un prodotto quando finisce nel carrello. Alla cassa premi «Spesa fatta» e la ritrovi nello storico.</string>
+    <string name="onboarding_title_3">Non scordarla più</string>
+    <string name="onboarding_text_3">Programma la spesa: ti avvisiamo un\'ora prima. E dallo storico rimetti tutto in lista con un tocco.</string>
+</resources>

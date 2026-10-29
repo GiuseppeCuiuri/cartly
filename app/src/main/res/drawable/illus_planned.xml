@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="168dp"
+    android:height="168dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <path
+        android:fillColor="?attr/colorPrimaryContainer"
+        android:pathData="M16,104a84,84 0,1 0,168,0a84,84 0,1 0,-168,0z" />
+    <path
+        android:fillColor="?attr/colorTertiaryContainer"
+        android:pathData="M23,48a7,7 0,1 0,14,0a7,7 0,1 0,-14,0z" />
+    <path
+        android:fillColor="?attr/colorSecondaryContainer"
+        android:pathData="M164,40a10,10 0,1 0,20,0a10,10 0,1 0,-20,0z" />
+    <path
+        android:fillColor="?attr/colorPrimary"
+        android:fillAlpha="0.5"
+        android:pathData="M171,166a5,5 0,1 0,10,0a5,5 0,1 0,-10,0z" />
+    <path
+        android:fillColor="?attr/colorTertiary"
+        android:fillAlpha="0.5"
+        android:pathData="M18,150a4,4 0,1 0,8,0a4,4 0,1 0,-8,0z" />
+    <path
+        android:fillColor="?attr/colorSurfaceContainerLowest"
+        android:pathData="M60,52h80a14,14 0,0 1,14,14v80a14,14 0,0 1,-14,14h-80a14,14 0,0 1,-14,-14v-80a14,14 0,0 1,14,-14z" />
+    <path
+        android:fillColor="?attr/colorPrimary"
+        android:pathData="M60,52h80a14,14 0,0 1,14,14v16h-108v-16a14,14 0,0 1,14,-14z" />
+    <path
+        android:fillColor="?attr/colorOnSurfaceVariant"
+        android:pathData="M74,42h0a4,4 0,0 1,4,4v12a4,4 0,0 1,-4,4h0a4,4 0,0 1,-4,-4v-12a4,4 0,0 1,4,-4z" />
+    <path
+        android:fillColor="?attr/colorOnSurfaceVariant"
+        android:pathData="M126,42h0a4,4 0,0 1,4,4v12a4,4 0,0 1,-4,4h0a4,4 0,0 1,-4,-4v-12a4,4 0,0 1,4,-4z" />
+    <path
+        android:fillColor="?attr/colorSurfaceVariant"
+        android:pathData="M63,92h10a3,3 0,0 1,3,3v8a3,3 0,0 1,-3,3h-10a3,3 0,0 1,-3,-3v-8a3,3 0,0 1,3,-3z" />
+    <path
+        android:fillColor="?attr/colorSurfaceVariant"
+        android:pathData="M87,92h10a3,3 0,0 1,3,3v8a3,3 0,0 1,-3,3h-10a3,3 0,0 1,-3,-3v-8a3,3 0,0 1,3,-3z" />
+    <path
+        android:fillColor="?attr/colorSurfaceVariant"
+        android:pathData="M111,92h10a3,3 0,0 1,3,3v8a3,3 0,0 1,-3,3h-10a3,3 0,0 1,-3,-3v-8a3,3 0,0 1,3,-3z" />
+    <path
+        android:fillColor="?attr/colorSurfaceVariant"
+        android:pathData="M63,114h10a3,3 0,0 1,3,3v8a3,3 0,0 1,-3,3h-10a3,3 0,0 1,-3,-3v-8a3,3 0,0 1,3,-3z" />
+    <path
+        android:fillColor="?attr/colorSurfaceVariant"
+        android:pathData="M87,114h10a3,3 0,0 1,3,3v8a3,3 0,0 1,-3,3h-10a3,3 0,0 1,-3,-3v-8a3,3 0,0 1,3,-3z" />
+    <path
+        android:fillColor="?attr/colorSurfaceVariant"
+        android:pathData="M63,136h10a3,3 0,0 1,3,3v8a3,3 0,0 1,-3,3h-10a3,3 0,0 1,-3,-3v-8a3,3 0,0 1,3,-3z" />
+    <path
+        android:fillColor="?attr/colorSurfaceVariant"
+        android:pathData="M87,136h10a3,3 0,0 1,3,3v8a3,3 0,0 1,-3,3h-10a3,3 0,0 1,-3,-3v-8a3,3 0,0 1,3,-3z" />
+    <path
+        android:fillColor="?attr/colorSurfaceVariant"
+        android:pathData="M111,136h10a3,3 0,0 1,3,3v8a3,3 0,0 1,-3,3h-10a3,3 0,0 1,-3,-3v-8a3,3 0,0 1,3,-3z" />
+    <path
+        android:fillColor="?attr/colorTertiary"
+        android:pathData="M111,114h10a3,3 0,0 1,3,3v8a3,3 0,0 1,-3,3h-10a3,3 0,0 1,-3,-3v-8a3,3 0,0 1,3,-3z" />
+    <path
+        android:fillColor="?attr/colorTertiary"
+        android:pathData="M128,152a24,24 0,1 0,48,0a24,24 0,1 0,-48,0z" />
+    <group
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:translateX="134.0"
+        android:translateY="134.0">
+        <path
+            android:fillColor="?attr/colorOnTertiary"
+            android:pathData="M12,22c1.1,0 2,-0.9 2,-2h-4c0,1.1 0.89,2 2,2zM18,16v-5c0,-3.07 -1.64,-5.64 -4.5,-6.32V4c0,-0.83 -0.67,-1.5 -1.5,-1.5s-1.5,0.67 -1.5,1.5v0.68C7.63,5.36 6,7.92 6,11v5l-2,2v1h16v-1l-2,-2z" />
+    </group>
+</vector>

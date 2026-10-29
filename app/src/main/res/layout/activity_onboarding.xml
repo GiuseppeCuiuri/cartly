@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OnboardingActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_skip"
+        style="@style/Widget.Material3.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_margin="8dp"
+        android:text="@string/onboarding_skip" />
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- page dots; a plain View with wrap_content would fill the screen, hence the fixed size -->
+    <LinearLayout
+        android:id="@+id/dots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:importantForAccessibility="noHideDescendants"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/bg_dot" />
+
+        <View
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/bg_dot" />
+
+        <View
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/bg_dot" />
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_next"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_margin="24dp"
+        android:text="@string/onboarding_next"
+        android:textAppearance="?attr/textAppearanceTitleMedium" />
+
+</LinearLayout>

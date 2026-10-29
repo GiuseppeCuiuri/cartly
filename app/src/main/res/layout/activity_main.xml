@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <!-- large title at the bottom of the bar; it shrinks into the toolbar row when the list scrolls -->
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:id="@+id/collapsing"
+                style="?attr/collapsingToolbarLayoutLargeStyle"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/collapsingToolbarLayoutLargeSize"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed|snap">
+
+                <com.google.android.material.appbar.MaterialToolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:elevation="0dp"
+                    app:layout_collapseMode="pin"
+                    app:logo="@drawable/ic_logo"
+                    app:logoDescription="@string/app_name"
+                    app:menu="@menu/main_menu" />
+
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+        <!-- one FAB for the whole screen, so Snackbars push it up; each tab sets it up. Solid orange: it is the main action -->
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/fab"
+            style="@style/Widget.Material3.ExtendedFloatingActionButton.Icon.Primary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="16dp"
+            android:textColor="?attr/colorOnPrimary"
+            android:visibility="gone"
+            app:backgroundTint="?attr/colorPrimary"
+            app:iconTint="?attr/colorOnPrimary" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/bottom_navigation" />
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light scheme around the logo's orange, with a navy accent from its background -->
+    <color name="md_primary">#A63B00</color>
+    <color name="md_on_primary">#FFFFFF</color>
+    <color name="md_primary_container">#FFDBCC</color>
+    <color name="md_on_primary_container">#380D00</color>
+    <color name="md_inverse_primary">#FFB596</color>
+    <color name="md_secondary">#77574A</color>
+    <color name="md_on_secondary">#FFFFFF</color>
+    <color name="md_secondary_container">#FFDBCF</color>
+    <color name="md_on_secondary_container">#2C160C</color>
+    <color name="md_tertiary">#3A5F8E</color>
+    <color name="md_on_tertiary">#FFFFFF</color>
+    <color name="md_tertiary_container">#D3E4FF</color>
+    <color name="md_on_tertiary_container">#001C38</color>
+    <color name="md_error">#BA1A1A</color>
+    <color name="md_on_error">#FFFFFF</color>
+    <color name="md_error_container">#FFDAD6</color>
+    <color name="md_on_error_container">#410002</color>
+    <color name="md_surface">#FFF8F6</color>
+    <color name="md_on_surface">#231917</color>
+    <color name="md_surface_variant">#F5DED6</color>
+    <color name="md_on_surface_variant">#53433E</color>
+    <color name="md_inverse_surface">#392E2B</color>
+    <color name="md_inverse_on_surface">#FFEDE7</color>
+    <color name="md_surface_bright">#FFF8F6</color>
+    <color name="md_surface_dim">#E8D6D0</color>
+    <color name="md_surface_container_lowest">#FFFFFF</color>
+    <color name="md_surface_container_low">#FFF1EC</color>
+    <color name="md_surface_container">#FCEAE4</color>
+    <color name="md_surface_container_high">#F6E5DE</color>
+    <color name="md_surface_container_highest">#F1DFD9</color>
+    <color name="md_outline">#85736D</color>
+    <color name="md_outline_variant">#D8C2BA</color>
+
+    <!-- launcher icon, from the logo -->
+    <color name="icon_background">#10213A</color>
+    <color name="icon_cart">#FF5722</color>
+</resources>
